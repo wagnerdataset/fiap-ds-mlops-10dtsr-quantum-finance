@@ -7,7 +7,7 @@ mlflow.set_tracking_uri("https://dagshub.com/wagnerdataset/fiap-ds-mlops-10dtsr-
 
 
 client = MlflowClient()
-model_name = "laptop-pricing-model-brl"
+model_name = "quantum-finance-model-brl"
 
 registered_versions = sorted(
     client.search_model_versions(f"name='{model_name}'"),

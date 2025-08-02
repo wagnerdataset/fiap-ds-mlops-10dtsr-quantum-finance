@@ -41,7 +41,7 @@ jobs:
             script: |
                 await github.rest.actions.createWorkflowDispatch({
                     owner: "wagnerdataset",
-                    repo: "fiap-ds-mlops-10dtsr-api-laptop-pricing-brl",
+                    repo: "fiap-ds-mlops-10dtsr-api-quantum-finance",
                     workflow_id: "deploy.yml",
                     ref: "main"
                 })

@@ -4,7 +4,7 @@ import pandas as pd
 
 mlflow.set_tracking_uri("https://dagshub.com/wagnerdataset/fiap-ds-mlops-10dtsr-quantum-finance.mlflow")
 
-model_uri = "models:/laptop-pricing-model-brl/latest"
+model_uri = "models:/quantum-finance-model-brl/latest"
 model = mlflow.pyfunc.load_model(model_uri)
 
 def prepare_data(data):

@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = fiap-ds-mlops-10dtsr-laptop-pricing
+PROJECT_NAME = fiap-ds-mlops-10dtsr-quantum-finance
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 
