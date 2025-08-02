@@ -1,10 +1,13 @@
-# Laptop Pricing Model BRL
+# Credit Scoring
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Model for laptop pricing prediction of used equipments in BRL currency.
+Model for Credit Scoring prediction.
+
+A QuantumFinance realizou uma parceria com algumas empresas clientes para fornecer o score de crédito de seus clientes optantes para permitir melhores condições de pagamento.
+Para que o modelo seja mais simples e diferente do modelo de score principal do banco, será necessário treinar esse modelo com os dados das transações mais recentes dos clientes.
 
 ## Project Organization
 
